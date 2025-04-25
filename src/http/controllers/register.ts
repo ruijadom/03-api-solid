@@ -4,7 +4,7 @@ import { RegisterUseCase } from "@/use-cases/register";
 import { hash } from "bcryptjs";
 import { FastifyRequest, FastifyReply } from "fastify";
 import { z } from "zod";
-
+import { UserAlreadyExistsError } from "@/use-cases/errors/user-already-exists-error";
 export async function register(request: FastifyRequest, reply: FastifyReply) {
   const createUserBodySchema = z.object({
     name: z.string(),
@@ -20,9 +20,11 @@ export async function register(request: FastifyRequest, reply: FastifyReply) {
 
     await registerUseCase.execute({ name, email, password });
   } catch (err) {
-    if (err instanceof Error) {
+    if (err instanceof UserAlreadyExistsError) {
       return reply.status(409).send({ message: err.message });
     }
+
+    throw err;
   }
 
   return reply.status(201).send();
