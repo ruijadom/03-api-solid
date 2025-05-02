@@ -5,7 +5,7 @@ A fitness check-in and gym management platform.
 ## FRs (Functional Requirements)
 
 - [x] It should be possible to register;
-- [ ] It should be possible to authenticate;
+- [x] It should be possible to authenticate;
 - [ ] It should be possible to get the profile of a logged-in user;
 - [ ] It should be possible to get the number of check-ins made by the logged-in user;
 - [ ] It should be possible for the user to get their check-in history;
