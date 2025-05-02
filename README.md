@@ -4,7 +4,7 @@ A fitness check-in and gym management platform.
 
 ## FRs (Functional Requirements)
 
-- [ ] It should be possible to register;
+- [x] It should be possible to register;
 - [ ] It should be possible to authenticate;
 - [ ] It should be possible to get the profile of a logged-in user;
 - [ ] It should be possible to get the number of check-ins made by the logged-in user;
@@ -17,7 +17,7 @@ A fitness check-in and gym management platform.
 
 ## BRs (Business Rules)
 
-- [ ] The user should not be able to register with a duplicate email;
+- [x] The user should not be able to register with a duplicate email;
 - [ ] The user cannot do 2 check-ins on the same day;
 - [ ] The user cannot check-in if not nearby (100m) the gym;
 - [ ] The check-in can only be validated up to 20 minutes after creation;
@@ -26,7 +26,7 @@ A fitness check-in and gym management platform.
 
 ## NFRs (Non-Functional Requirements)
 
-- [ ] The user's password needs to be encrypted;
-- [ ] The application data needs to be persisted in a PostgreSQL database;
+- [x] The user's password needs to be encrypted;
+- [x] The application data needs to be persisted in a PostgreSQL database;
 - [ ] All data lists need to be paginated with 20 items per page;
 - [ ] The user must be identified by a JWT (JSON Web Token);
