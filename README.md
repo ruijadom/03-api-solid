@@ -12,7 +12,7 @@ A fitness check-in and gym management platform.
 - [x] It should be possible for the user to search for nearby gyms;
 - [x] It should be possible for the user to search for gyms by name;
 - [x] It should be possible for the user to check-in at a gym;
-- [ ] It should be possible to validate a user's check-in;
+- [x] It should be possible to validate a user's check-in;
 - [x] It should be possible to register a gym;
 
 ## BRs (Business Rules)
