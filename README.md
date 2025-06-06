@@ -20,7 +20,7 @@ A fitness check-in and gym management platform.
 - [x] The user should not be able to register with a duplicate email;
 - [x] The user cannot do 2 check-ins on the same day;
 - [x] The user cannot check-in if not nearby (100m) the gym;
-- [ ] The check-in can only be validated up to 20 minutes after creation;
+- [x] The check-in can only be validated up to 20 minutes after creation;
 - [ ] The check-in can only be validated by administrators;
 - [ ] The gym can only be registered by administrators;
 
