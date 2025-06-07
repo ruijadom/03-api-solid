@@ -21,12 +21,12 @@ A fitness check-in and gym management platform.
 - [x] The user cannot do 2 check-ins on the same day;
 - [x] The user cannot check-in if not nearby (100m) the gym;
 - [x] The check-in can only be validated up to 20 minutes after creation;
-- [ ] The check-in can only be validated by administrators;
-- [ ] The gym can only be registered by administrators;
+- [x] The check-in can only be validated by administrators;
+- [x] The gym can only be registered by administrators;
 
 ## NFRs (Non-Functional Requirements)
 
 - [x] The user's password needs to be encrypted;
 - [x] The application data needs to be persisted in a PostgreSQL database;
 - [x] All data lists need to be paginated with 20 items per page;
-- [ ] The user must be identified by a JWT (JSON Web Token);
+- [x] The user must be identified by a JWT (JSON Web Token);
